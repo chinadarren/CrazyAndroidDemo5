@@ -1,3 +1,4 @@
+<!--TableLayout Demo-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
@@ -10,31 +11,31 @@
         android:shrinkColumns="1"
         android:stretchColumns="2"
         >
-     <!--直接添加按钮，它自己会占一行-->
-      <Button  android:id="@+id/ok1"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="独自一行的按钮"
-          />
+        <!--直接添加按钮，它自己会占一行-->
+        <Button  android:id="@+id/ok1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="独自一行的按钮"
+            />
         <!--添加一个表格行-->
-      <TableRow>
-          <!--为该表格行添加三个按钮-->
-          <Button android:id="@+id/ok2"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:text="普通按钮"
-              />
-          <Button android:id="@+id/ok3"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                  android:text="收缩的按钮"
-              />
-          <Button  android:id="@+id/ok4"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="拉伸的按钮"
-              />
-      </TableRow>
+        <TableRow>
+            <!--为该表格行添加三个按钮-->
+            <Button android:id="@+id/ok2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="普通按钮"
+                />
+            <Button android:id="@+id/ok3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收缩的按钮"
+                />
+            <Button  android:id="@+id/ok4"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="拉伸的按钮"
+                />
+        </TableRow>
     </TableLayout>
     <!--定义第2个表格给布局，指定第2列隐藏-->
     <!--collapseColumns="1"使得第2列隐藏-->
@@ -44,11 +45,11 @@
         android:layout_height="wrap_content"
         android:collapseColumns="1"
         >
-       <Button android:id="@+id/ok5"
-               android:layout_width="fill_parent"
-               android:layout_height="wrap_content"
-               android:text="独自一行的按钮"
-           />
+        <Button android:id="@+id/ok5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="独自一行的按钮"
+            />
         <!--添加一个表格行-->
         <TableRow>
             <!--为该表格行添加三个按钮-->
